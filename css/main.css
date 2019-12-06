@@ -1,0 +1,71 @@
+.container-fluid{
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-top:5%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.form-group{
+    padding-bottom: 20px;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.right { float: right; }
+.left { float: left; }
+
+   
+button {
+    width:100%;
+    background-color: yellow;
+    color:black;
+    cursor: pointer;
+    padding: 5px;
+ }
+ p{
+     font-size: 8pt;
+ }
+ .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width:29%;
+    margin:0 auto;
+    
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+    flex-direction: column;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+footer{
+   
+    margin-top: 30px;
+    border-top: 2px solid #adb1b8;
+    text-align: center;
+    
+
+}
+
+.center-span>div>a>p{
+    display: inline;
+    text-align: left;
+    padding:10px 0 5px 0;
+    font-size: 80%;
+}
+
+
+
